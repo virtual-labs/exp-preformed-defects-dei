@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation - Preformed Defects</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-title">Select Preformed Defect Type</h2>
+            <p class="modal-description">Choose a defect simulation type</p>
+            <div class="modal-options">
+                <button class="modal-button" onclick="selectSimulation('surface-defect')">
+                    <h3>Surface defect</h3>
+                    <p>Surface defect analysis</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('shearing-analysis')">
+                    <h3>Shearing defect</h3>
+                    <p>Shearing defect analysis</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('flat-surface')">
+                    <h3>Effect of flat surface with the sharp corner</h3>
+                    <p>Flat surface defect effects</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('thickness')">
+                    <h3>Effect of small web thickness</h3>
+                    <p>Thickness variation effects</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('combination')">
+                    <h3>Combination of defects</h3>
+                    <p>Multiple defect combinations</p>
+                </button>
+            </div>
+        </div>
+    </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar" style="display: none;">
+        <nav class="nav-menu">
+            <button class="back-button" onclick="backToSelection()">← Back to Selection</button>
+            
+            <div class="nav-section" id="surface-defect-nav" style="display: none;">
+                <h3 class="nav-title">Surface Defect</h3>
+            </div>
+            
+            <div class="nav-section" id="shearing-analysis-nav" style="display: none;">
+                <h3 class="nav-title">Shearing Analysis</h3>
+            </div>
+            
+            <div class="nav-section" id="flat-surface-nav" style="display: none;">
+                <h3 class="nav-title">Flat Surface Effect</h3>
+            </div>
+            
+            <div class="nav-section" id="thickness-nav" style="display: none;">
+                <h3 class="nav-title">Thickness Effect</h3>
+            </div>
+            
+            <div class="nav-section" id="combination-nav" style="display: none;">
+                <h3 class="nav-title">Defect Combination</h3>
+            </div>
+        </nav>
+    </aside>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
