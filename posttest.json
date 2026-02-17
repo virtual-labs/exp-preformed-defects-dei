@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The maximum unsupported length that can be upset safely in one blow is:",
+      "answers": {
+        "a": "Equal to diameter",
+        "b": "Twice the diameter",
+        "c": "Three times the diameter",
+        "d": "Five times the diameter"
+      },
+      "explanations": {
+        "a": "Too small to be a limit.",
+        "b": "Not the standard limit.",
+        "c": "Three times the diameter is recommended.",
+        "d": "Too large and causes buckling."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Buckling during upsetting is mainly caused by:",
+      "answers": {
+        "a": "High temperature",
+        "b": "Excessive unsupported length",
+        "c": "Low forging speed",
+        "d": "Lubrication"
+      },
+      "explanations": {
+        "a": "Temperature alone does not cause buckling.",
+        "b": "Excess unsupported length causes buckling.",
+        "c": "Speed has minor effect.",
+        "d": "Lubrication reduces friction."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Split dies in upsetting machines are used to:",
+      "answers": {
+        "a": "Cut excess material",
+        "b": "Allow movement between cavities",
+        "c": "Cool the billet",
+        "d": "Increase hardness"
+      },
+      "explanations": {
+        "a": "No cutting is involved.",
+        "b": "Split dies allow transfer between cavities.",
+        "c": "Dies do not cool billets.",
+        "d": "Hardness is not increased by dies."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Pre-formed defects often cause problems in:",
+      "answers": {
+        "a": "Machining centres",
+        "b": "Bottle blow-moulding",
+        "c": "Heat treatment furnaces",
+        "d": "Rolling mills"
+      },
+      "explanations": {
+        "a": "Machining is not affected directly.",
+        "b": "Pre-form defects cause problems in blow-moulding.",
+        "c": "Heat treatment is not primary issue.",
+        "d": "Rolling mills are separate processes."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Pre-forms found insufficient during inspection are usually:",
+      "answers": {
+        "a": "Re-forged",
+        "b": "Ignored",
+        "c": "Returned to supplier",
+        "d": "Weld repaired"
+      },
+      "explanations": {
+        "a": "Not always possible.",
+        "b": "Quality control prevents this.",
+        "c": "Defective pre-forms are returned.",
+        "d": "Welding is not recommended."
+      },
+      "correctAnswer": "c"
+    }
+  ]
+}

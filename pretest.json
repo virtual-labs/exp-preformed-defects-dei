@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The upsetting process primarily involves:",
+      "answers": {
+        "a": "Increasing length of workpiece",
+        "b": "Reducing diameter of workpiece",
+        "c": "Increasing diameter by compressing length",
+        "d": "Cutting material into shape"
+      },
+      "explanations": {
+        "a": "Upsetting does not increase length.",
+        "b": "Diameter increases in upsetting.",
+        "c": "Upsetting increases diameter by reducing length.",
+        "d": "No cutting is involved."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which of the following parts is commonly produced by upset forging?",
+      "answers": {
+        "a": "Gear",
+        "b": "Bolt",
+        "c": "Sheet metal panel",
+        "d": "Casting mould"
+      },
+      "explanations": {
+        "a": "Gears are usually machined or cast.",
+        "b": "Bolts are commonly produced by upsetting.",
+        "c": "Sheet panels are not upset forged.",
+        "d": "Moulds are not forged."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Upset forging is usually performed on:",
+      "answers": {
+        "a": "Lathe machines",
+        "b": "Crank presses",
+        "c": "Milling machines",
+        "d": "Grinding machines"
+      },
+      "explanations": {
+        "a": "Lathes are machining tools.",
+        "b": "Crank presses are commonly used for upsetting.",
+        "c": "Milling machines remove material.",
+        "d": "Grinding machines finish surfaces."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "The initial workpiece for upsetting is generally:",
+      "answers": {
+        "a": "Sheet metal",
+        "b": "Wire or rod",
+        "c": "Casting",
+        "d": "Powder compact"
+      },
+      "explanations": {
+        "a": "Sheets are not used in upsetting.",
+        "b": "Wire or rod stock is commonly used.",
+        "c": "Castings are not initial upset stock.",
+        "d": "Powder compacts are used in PM."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Pre-formed defects are usually:",
+      "answers": {
+        "a": "Easily visible",
+        "b": "Coincidental and difficult to detect",
+        "c": "Always surface defects",
+        "d": "Removed automatically"
+      },
+      "explanations": {
+        "a": "Most are not visible.",
+        "b": "Pre-formed defects are coincidental and hard to detect.",
+        "c": "They may be internal.",
+        "d": "They require inspection."
+      },
+      "correctAnswer": "b"
+    }
+  ]
+}
